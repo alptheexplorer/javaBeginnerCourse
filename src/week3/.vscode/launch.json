@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Numbers",
+            "request": "launch",
+            "mainClass": "week3.Numbers"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Degre2",
+            "request": "launch",
+            "mainClass": "week3.Degre2"
+        }
+    ]
+}
