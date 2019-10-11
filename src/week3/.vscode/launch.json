@@ -4,6 +4,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - Numbers",
             "request": "launch",
+            "mainClass": "Numbers",
+            "projectName": "javaExercises"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Numbers",
+            "request": "launch",
             "mainClass": "week3.Numbers"
         },
         {
