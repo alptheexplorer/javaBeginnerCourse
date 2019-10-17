@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Rect",
+            "request": "launch",
+            "mainClass": "week5.src.Rect",
+            "projectName": "javaBeginnerCourse_44b339e0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Moyenne",
+            "request": "launch",
+            "mainClass": "week5.src.Moyenne",
+            "projectName": "javaBeginnerCourse_44b339e0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Moyenne",
+            "request": "launch",
+            "mainClass": "week5.Moyenne",
+            "projectName": "javaBeginnerCourse_44b339e0"
+        }
+    ]
+}
