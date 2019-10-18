@@ -2,6 +2,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MasterMind",
+            "request": "launch",
+            "mainClass": "week52.src.MasterMindFiles.MasterMind",
+            "projectName": "javaBeginnerCourse_44b339e0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MasterMind",
+            "request": "launch",
+            "mainClass": "MasterMind",
+            "projectName": "javaBeginnerCourse_44b339e0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Rect",
+            "request": "launch",
+            "mainClass": "Rect",
+            "projectName": "week5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MasterMind",
+            "request": "launch",
+            "mainClass": "MasterMindFiles.MasterMind",
+            "projectName": "week5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MasterMind",
+            "request": "launch",
+            "mainClass": "week5.src.MasterMindFiles.MasterMind",
+            "projectName": "javaBeginnerCourse_44b339e0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Affectation",
+            "request": "launch",
+            "mainClass": "week5.src.Affectation",
+            "projectName": "javaBeginnerCourse_44b339e0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Portee",
+            "request": "launch",
+            "mainClass": "week5.src.Portee",
+            "projectName": "javaBeginnerCourse_44b339e0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Rect",
             "request": "launch",
             "mainClass": "week5.src.Rect",
