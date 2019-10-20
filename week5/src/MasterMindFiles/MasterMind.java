@@ -8,7 +8,7 @@
    */
 
 // generating random number 
-package week5.src.MasterMind;
+package week5.src.MasterMindFiles;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -16,6 +16,8 @@ class MasterMind{
    
     ArrayList<Integer> randNum = new ArrayList<Integer>();
     ArrayList<Integer> userGuess = new ArrayList<Integer>();
+    ArrayList<Integer> removed1 = new ArrayList<Integer>(); 
+    ArrayList<Integer> removed2 = new ArrayList<Integer>(); 
     int max = 9;
     int responseLength;
     ArrayList<String> response = new ArrayList<String>(); 
@@ -45,18 +47,22 @@ class MasterMind{
             if(randNum.get(i) == userGuess.get(i)){
                 response.add(i,"#");
             }
-        }
-        for(int i =0; i < randNum.size(); i++){
-            if(randNum.get(i) == userGuess.get(i)){
-                randNum.remove(i);
-                userGuess.remove(i);
-                i -= 1;
+        } 
+        for(int i = 0; i < 4; i++){
+            if(randNum.get(i) != userGuess.get(i)){
+                removed1.add(i,randNum.get(i));
+                removed2.add(i,userGuess.get(i));
+            }
+            else{
+                removed1.add(i,0);
+                removed2.add(i,0);
             }
         }
+       
         responseLength = response.size();
         for(int i =0; i<4; i++){
             for(int j = 0; j<4; j++){
-                if(randNum.get(i) == userGuess.get(i)){
+                if(randNum.get(i) == userGuess.get(i) && randNum.get(i) != 0 && userGuess.get(i) != 0){
                     response.add(responseLength + i, "0");
                 }
             }
@@ -72,6 +78,8 @@ class MasterMind{
         }
         m1.userEntry();
         m1.checker();
+        for(int j= 0; j<4; j++){
+            System.out.print(m1.response.get(j));
+        }
     }
-
 }
