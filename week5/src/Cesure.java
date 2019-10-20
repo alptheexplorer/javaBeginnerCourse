@@ -89,13 +89,6 @@ class Cesure {
         return true;
     }
     
-
-
-
-
-
-
-
     public static void main(String[] args) {
         Cesure c1 = new Cesure();
         c1.getter();

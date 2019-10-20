@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - friendNumber",
+            "request": "launch",
+            "mainClass": "week5.src.friendNumber",
+            "projectName": "javaBeginnerCourse_44b339e0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Cesure",
             "request": "launch",
             "mainClass": "week5.src.Cesure",
